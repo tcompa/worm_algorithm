@@ -5,7 +5,7 @@ Worm algorithm for the two-dimensional Ising model
 Written in pure Python, so that it can be run through pypy.
 
 ### C version (worm_ising_2d.cpp)
-Requires mt19937ar.c, and has to be compiled via the following command:
+Requires mt19937ar.c, and has to be compiled via
 
     make worm_ising_2d
 
