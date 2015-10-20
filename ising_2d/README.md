@@ -10,6 +10,9 @@ Requires mt19937ar.c, and has to be compiled via
     make worm_ising_2d
 
 
+### Known bugs:
+* the C code does not run for large L (you can move some declarations outside the main) a preliminary bugfix (not on this repository yet) has troubles with the bond/nbr arrays.
+
 ### To-do
 * add correlation function measure (which also gives access to magnetic susceptibility),
 * add magnetization measure (how?),
